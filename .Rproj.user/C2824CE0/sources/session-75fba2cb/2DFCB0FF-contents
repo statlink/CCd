@@ -2,10 +2,10 @@
 \alias{CCd-package}
 \docType{package}
 \title{
-Maximum Likelihood Estimation and Related Functions for the Cauchy-Cacoullos (Discrete Cauchy) Distribution.
+Maximum Likelihood Estimation and Related Functions for the Cacuhy-Cacoullos (Discrete Cauchy) Distribution.
 }
 \description{
-Functions to estimate the parameters Cauchy-Cacoullos (discrete Cauchy) distribution using maximum likelihood. Probability mass, distribution and quantile function are also included.
+Functions to estimate the parameters Cacuhy-Cacoullos (discrete Cauchy) distribution with or without covariates using maximum likelihood.
 }
 \details{
 \tabular{lll}{
