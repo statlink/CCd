@@ -14,7 +14,7 @@ dcc(y, mu = 0, lambda, logged = FALSE)
 
 \arguments{
 \item{y}{
-A vector with integer values.
+A vector with non negative integer values.
 }
 \item{mu}{
 The value of the location parameter \eqn{\mu}.
