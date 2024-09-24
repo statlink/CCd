@@ -1,0 +1,62 @@
+\name{Density of the CC distribution}
+\alias{dcc}
+\title{
+Density of the CC distribution
+}
+
+\description{
+Density of the CC distribution.
+}
+
+\usage{
+dcc(y, mu = 0, lambda, logged = FALSE)
+}
+
+\arguments{
+\item{y}{
+A vector with non negative integer values.
+}
+\item{mu}{
+The value of the location parameter \eqn{\mu}.
+}
+\item{lambda}{
+The value of the scale parameter \eqn{\lambda}.
+}
+\item{logged}{
+Should the logarithm of the density values be computed? The default value is TRUE.
+}
+}
+
+\details{
+The density of the CC distribution is computed. The probability mass function of the CC distribution (Papadatos, 2022) is given by
+\eqn{P(X=k)=\dfrac{\tanh{\lambda \pi}}{\pi}}
+}
+
+\value{
+A vector with the (logged) density values.
+}
+
+\references{
+Papadatos N. (2022). The characteristic function of the discrete Cauchy distribution In Memory of T. Cacoullos.
+Journal of Statistical Theory and Practice, 16(3): 47.
+}
+
+\author{
+Michail Tsagris.
+
+R implementation and documentation: Michail Tsagris \email{mtsagris@uoc.gr}.
+}
+
+%\note{
+%%  ~~further notes~~
+%}
+\seealso{
+\code{\link{pcc}, \link{cc.mle} }
+}
+
+\examples{
+x <- round( rcauchy(100, 3, 10) )
+mod <- cc.mle(x)
+y <- dcc(x, mod$param[1], mod$param[3])
+}
+
