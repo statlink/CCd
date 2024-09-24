@@ -20,17 +20,14 @@ qcc(p, mu, lambda)
 \item{y}{
 A vector with integer values.
 }
-\item{p}{
-A vector with probabilities.
-}
 \item{mu}{
 The value of the location parameter \eqn{\mu}.
 }
 \item{lambda}{
 The value of the scale parameter \eqn{\lambda}.
 }
-\item{logged}{
-Should the logarithm of the density be returned (TRUE) or not (FALSE)?
+\item{p}{
+A vector with probabilities.
 }
 }
 

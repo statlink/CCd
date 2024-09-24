@@ -1,15 +1,15 @@
-\name{Distribution function of the CC distribution}
-\alias{pcc}
+\name{Density of the CC distribution}
+\alias{dcc}
 \title{
-Distribution function of the CC distribution
+Density of the CC distribution
 }
 
 \description{
-Distribution function of the CC distribution.
+Density of the CC distribution.
 }
 
 \usage{
-pcc(y, mu = 0, lambda)
+dcc(y, mu = 0, lambda, logged = FALSE)
 }
 
 \arguments{
@@ -22,14 +22,18 @@ The value of the location parameter \eqn{\mu}.
 \item{lambda}{
 The value of the scale parameter \eqn{\lambda}.
 }
+\item{logged}{
+Should the logarithm of the density values be computed? The default value is TRUE.
+}
 }
 
 \details{
-The cumulative distribution function of the CC distribution is computed. We explore the property of the CC distribution that \eqn{P(X=-\kappa)=P(X=\kappa)}, with \eqn{\kappa>0} to compute the cumulative distribution.
+The density of the CC distribution is computed. The probability mass function of the CC distribution (Papadatos, 2022) is given by
+\eqn{P(X=k)=\dfrac{\tanh{(\lambda \pi)}}{\pi}\dfrac{\lambda}{\lambda^2+\kappa^2}.}
 }
 
 \value{
-A vector with the cumulative probabilities.
+A vector with the (logged) density values, the (logged) probabilities for each value of y.
 }
 
 \references{
@@ -47,7 +51,7 @@ R implementation and documentation: Michail Tsagris \email{mtsagris@uoc.gr}.
 %%  ~~further notes~~
 %}
 \seealso{
-\code{\link{dcc}, \link{cc.mle} }
+\code{\link{pcc}, \link{cc.mle} }
 }
 
 \examples{

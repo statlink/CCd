@@ -1,26 +1,26 @@
 {
-    "id": "3EB41DE3",
-    "path": "~/GitHub/CCd/R/pcc.R",
-    "project_path": "R/pcc.R",
-    "type": "r_source",
+    "id": "E573B9F2",
+    "path": "~/GitHub/CCd/man/dcc.Rd",
+    "project_path": "man/dcc.Rd",
+    "type": "r_doc",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1727157248420.0,
+    "created": 1727159068760.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "0,0",
-        "scrollLine": "0"
+        "cursorPosition": "22,0",
+        "scrollLine": "15"
     },
     "folds": "",
-    "lastKnownWriteTime": 1727157635,
+    "lastKnownWriteTime": 1727159110,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1727157635537,
+    "last_content_update": 1727159110392,
     "read_only": false,
     "read_only_alternatives": []
 }
