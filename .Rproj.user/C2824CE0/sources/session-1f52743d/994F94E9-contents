@@ -2,7 +2,7 @@ Package: CCd
 Type: Package
 Title: The Cauchy-Cacoullos (Discrete Cauchy) Distribution
 Version: 1.0
-Date: 2024-09-25
+Date: 2024-09-24
 Authors@R: person("Michail", "Tsagris", role = c("aut", "cre"), email = "mtsagris@uoc.gr")
 Author: Michail Tsagris [aut, cre]
 Maintainer: Michail Tsagris <mtsagris@uoc.gr>

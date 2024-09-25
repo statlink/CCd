@@ -3,7 +3,7 @@
     "path": "~/GitHub/CCd/man/CCd-package.Rd",
     "project_path": "man/CCd-package.Rd",
     "type": "r_doc",
-    "hash": "454045426",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1727196745062.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "7,111",
+        "cursorPosition": "14,21",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1727159309,
+    "lastKnownWriteTime": 1727264360,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1727159309,
+    "last_content_update": 1727264360530,
     "read_only": false,
     "read_only_alternatives": []
 }
