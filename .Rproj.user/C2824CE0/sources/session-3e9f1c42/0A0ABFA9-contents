@@ -1,4 +1,4 @@
-cc.mle <- function(y) {
+cc.mle <- function(y, tol = 1e-7) {
 
   n <- length(y)
   fun <- function(par, y, n) {
