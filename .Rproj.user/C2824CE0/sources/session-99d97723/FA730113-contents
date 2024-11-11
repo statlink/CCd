@@ -1,21 +1,24 @@
-\name{loc0.test}
-\alias{loc0.test}
+\name{cc.reg}
+\alias{cc.reg}
 
 \title{
-Log-likelihood ratio test for zero location parameter
+Regression modelling with the CC distribution
 }
 
 \description{
-Log-likelihood ratio test for zero location parameter.
+Regression modelling with the CC distribution.
 }
 
 \usage{
-loc0.test(y, tol = 1e-7)
+cc.reg(y, x, tol = 1e-6)
 }
 
 \arguments{
 \item{y}{
-A vector with integer values.
+The response variable, a vector with integer values.
+}
+\item{x}{
+A vector or matrix with with the predictor variables.
 }
 \item{tol}{
 The tolerance value to terminate the maximization algorithm.
@@ -23,11 +26,12 @@ The tolerance value to terminate the maximization algorithm.
 }
 
 \details{
-We perform a log-likelihood ratio test to test whether the location parameter can be assumed zero or not.
+Regression modelling assuming that the counts follow the CC distribution is implemented.
 }
 
 \value{
-A vector with the test statistic and its associated p-value.
+A list including
+A vector with three numbers, the \eqn{\theta} and \eqn{\lambda} parameters and the value of the log-likelihood.
 }
 
 \references{
@@ -41,16 +45,16 @@ R implementation and documentation: Michail Tsagris \email{mtsagris@uoc.gr}.
 }
 
 \seealso{
-\code{ \link{cc.mle}, \link{dcc}
+\code{ \link{cc.mle}
 }
 }
 
 \examples{
 y <- round( rcauchy(100, 3, 10) )
-loc0.test(y)
+cc.mle(y)
 
 y <- round( rcauchy(100, 0, 10) )
-loc0.test(y)
+cc.mle0(y)
 }
 
 
