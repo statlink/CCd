@@ -1,8 +1,0 @@
-#useDynLib(fsn, .registration = TRUE)
-
-importFrom("stats", optim, optimize, pchisq)
-importFrom("Rfast", nth, lmfit)
-
-exportPattern("^[[:alpha:]]+")
-exportPattern("^[^\\.]")
-
